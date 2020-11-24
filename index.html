@@ -39,43 +39,14 @@
         <main>
             <div class="form"> 
                 
-                <label class="lbl-title" >Ваш телефон:</label>
-                <div class="input-container ">
+                <label for="phone">Ваш телефон:</label>                    
+
+                <input id="phone" class="form-control" type="tel" placeholder="+380675555555, +38(067)5557788, +38(067)456-67-88" pattern="[\+]\d{12}|[\+]\d{2}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}|[\+]\d{2}[\(]\d{3}[\)]\d{7}" minlength="13" maxlength="17" />
+
+                <small class="form-error">Это поле должно содержать телефон следующих форматах: +380675555555, +38(067)5557788, +38(067)456-67-88</small>
                     
-
-                    <input id="phone" class="input" type="tel" placeholder=" " pattern="[\+]\d{12}|[\+]\d{2}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}|[\+]\d{2}[\(]\d{3}[\)]\d{7}" minlength="13" maxlength="17" />
-
-                     <div class="cut"></div>
-
-                    <label for="phone" class="placeholder">+380675555555, +38(067)5557788, +38(067)456-67-88</label>
-
-                    <span class="form__error">Это поле должно содержать телефон следующих форматах: +380675555555, +38(067)5557788, +38(067)456-67-88</spann>
-
-
-                    
-
-
-                </div>
-                
-
-
-
-
-
-                    
-                   
-                   
-                    
-
-                
-                
-                
-                
-                
-                   
-               
-                
             </div>
+                  
         </main>
 
     </div>
