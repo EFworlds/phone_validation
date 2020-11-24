@@ -39,14 +39,6 @@ li {
 	box-sizing: border-box;
 }
 
-.form button {
-	width: 100%;
-	padding: 10px;
-	border-radius: 2px;
-	border: 0;
-	background-color: #ccc;
-	color: #fff;
-}
 
 input:valid:not(:placeholder-shown) {
 	border-color: green;
